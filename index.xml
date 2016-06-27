@@ -34,7 +34,8 @@
     &lt;img class=&#34;accImg-small&#34; src=&#34;https://hippoandy.github.io/img/hippo.png&#34;&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Yu-Chang, Ho (Hippo)&lt;br /&gt;
+&lt;p&gt;&lt;br /&gt;
+Yu-Chang, Ho (Hippo)&lt;br /&gt;
 Yi-Lan, Taiwan&lt;/p&gt;
 
 &lt;p&gt;&lt;div class=&#34;img-div&#34;&gt;
@@ -69,12 +70,16 @@ Yi-Lan, Taiwan&lt;/p&gt;
       <pubDate>Mon, 27 Jun 2016 19:26:37 +0800</pubDate>
       <author>hippo1993928 at gmail.com (Yu-Chang, Ho (Hippo))</author>
       <guid>http://hippoandy.github.io/2016/06/27/welcome-to-hippos-home/</guid>
-      <description>&lt;p&gt;This is my personal website built by hugo tool and used hyde-y theme.&lt;br /&gt;
+      <description>&lt;p&gt;This is my personal website built by hugo tool and used &amp;quot;hyde-y&amp;quot; theme.&lt;br /&gt;
 hyde-y is a blog theme project I discover on Github as the following link:
 &lt;a href=&#34;https://github.com/enten/hyde-y&#34;&gt;hyde-y&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;I started this website on June 30, 2016.
-I want to record my project notes or something personal in the future.&lt;/p&gt;
+&lt;p&gt;I started this website on June 30, 2016.&lt;/p&gt;
+
+&lt;p&gt;I graduated from university this July. Recently, I&amp;rsquo;m preparing to study aborad.&lt;br /&gt;
+Since I expect to do a lot of projects in the future and I wish to remember the detail of my works, I will record them all using this website.&lt;/p&gt;
+
+&lt;p&gt;Also, since learning has an accumulated nature, after I solved problems, no matter encounterd them from coding or life event, I will record my solution in here.&lt;/p&gt;
 
 &lt;p&gt;Thanks for your visiting!&lt;/p&gt;
 </description>
