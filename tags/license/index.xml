@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>License on Hippo&#39;s Home</title>
+    <link>http://hippoandy.github.io/tags/license/</link>
+    <description>Recent content in License on Hippo&#39;s Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <managingEditor>hippo1993928 at gmail.com (Yu-Chang, Ho (Hippo))</managingEditor>
+    <webMaster>hippo1993928 at gmail.com (Yu-Chang, Ho (Hippo))</webMaster>
+    <copyright>(c) 2016 Yu-Chang, Ho.</copyright>
+    <lastBuildDate>Mon, 27 Jun 2016 20:27:13 +0800</lastBuildDate>
+    <atom:link href="http://hippoandy.github.io/tags/license/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>license</title>
+      <link>http://hippoandy.github.io/license/</link>
+      <pubDate>Mon, 27 Jun 2016 20:27:13 +0800</pubDate>
+      <author>hippo1993928 at gmail.com (Yu-Chang, Ho (Hippo))</author>
+      <guid>http://hippoandy.github.io/license/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
