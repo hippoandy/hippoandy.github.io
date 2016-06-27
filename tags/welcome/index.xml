@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome on Hippo&#39;s home</title>
+    <link>http://hippoandy.github.io/tags/welcome/</link>
+    <description>Recent content in Welcome on Hippo&#39;s home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <managingEditor>hippo1993928 at gmail.com (Yu-Chang, Ho (Hippo))</managingEditor>
+    <webMaster>hippo1993928 at gmail.com (Yu-Chang, Ho (Hippo))</webMaster>
+    <copyright>(c) 2016 Yu-Chang, Ho.</copyright>
+    <lastBuildDate>Mon, 27 Jun 2016 19:26:37 +0800</lastBuildDate>
+    <atom:link href="http://hippoandy.github.io/tags/welcome/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Welcome to Hippo&#39;s home</title>
+      <link>http://hippoandy.github.io/2016/06/27/welcome-to-hippos-home/</link>
+      <pubDate>Mon, 27 Jun 2016 19:26:37 +0800</pubDate>
+      <author>hippo1993928 at gmail.com (Yu-Chang, Ho (Hippo))</author>
+      <guid>http://hippoandy.github.io/2016/06/27/welcome-to-hippos-home/</guid>
+      <description>&lt;p&gt;This is my personal website built by hugo tool and used hyde-y theme.&lt;br /&gt;
+hyde-y is a blog theme project I discover on Github as the following link:
+&lt;a href=&#34;https://github.com/enten/hyde-y&#34;&gt;hyde-y&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I started this website on June 30, 2016.
+I want to record my project notes or something personal in the future.&lt;/p&gt;
+
+&lt;p&gt;Thanks for your visiting!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
