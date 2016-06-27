@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rwd on Hippo&#39;s home</title>
+    <link>http://hippoandy.github.io/tags/rwd/</link>
+    <description>Recent content in Rwd on Hippo&#39;s home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <managingEditor>hippo1993928 at gmail.com (Yu-Chang, Ho (Hippo))</managingEditor>
+    <webMaster>hippo1993928 at gmail.com (Yu-Chang, Ho (Hippo))</webMaster>
+    <copyright>(c) 2016 Yu-Chang, Ho.</copyright>
+    <lastBuildDate>Tue, 28 Jun 2016 01:34:32 +0800</lastBuildDate>
+    <atom:link href="http://hippoandy.github.io/tags/rwd/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The E-Learning Project Review (3) Coding</title>
+      <link>http://hippoandy.github.io/2016/06/28/the-e-learning-project-review-3-coding/</link>
+      <pubDate>Tue, 28 Jun 2016 01:34:32 +0800</pubDate>
+      <author>hippo1993928 at gmail.com (Yu-Chang, Ho (Hippo))</author>
+      <guid>http://hippoandy.github.io/2016/06/28/the-e-learning-project-review-3-coding/</guid>
+      <description>
+
+&lt;p&gt;At this stage, we started writing the system. The following tools were used for development.&lt;/p&gt;
+
+&lt;table&gt;
+    &lt;tr&gt;&lt;td&gt;Text Editor&lt;/td&gt;&lt;td&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Subline Text 2&lt;/li&gt;&lt;li&gt;Visual Studio Code&lt;/li&gt;&lt;li&gt;Apple Xcode&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Browser&lt;/td&gt;&lt;td&gt;&lt;ul&gt;
+            &lt;li&gt;Firefox&lt;/li&gt;&lt;li&gt;Chrome&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Browser Extension&lt;/td&gt;&lt;td&gt;Winodw Resizer Beta on Chrome&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Local Web Server&lt;/td&gt;&lt;td&gt;MAMP&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;FTP Client&lt;/td&gt;&lt;td&gt;Filezilla&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sublimetext.com&#34;&gt;Sublime Text&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com&#34;&gt;Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/window-resizer-beta/pnhnbekjlbamfnnemcaolkjchjlidbib&#34;&gt;Window Resizer Beta&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mamp.info/en/&#34;&gt;MAMP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://filezilla-project.org&#34;&gt;Filezilla&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mamp&#34;&gt;MAMP&lt;/h3&gt;
+
+&lt;p&gt;MAMP is a tool available on Apple macOS and Microsoft Windows. It can easily deploy an Apache server on the localhost.
+My job was to desing the UI. Since we used PHP language to write web program, the .php file could not run directly on the localhost w/o a web server.
+To deploy a local web server allowed me to test and modify the UI on my computer and not always to upload newly modified code instantly to the Queen.&lt;/p&gt;
+
+&lt;div class=&#34;post-img-div&#34;&gt;
+    &lt;img src=&#34;http://hippoandy.github.io/img/posts/e-learning/20160628-mamp.png&#34; class=&#34;horizontal-center post-img-border&#34; style=&#34;width: 500px;&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;MAMP&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;window-resizer&#34;&gt;Window Resizer&lt;/h3&gt;
+
+&lt;p&gt;Since NLIS required us to add &lt;a href=&#34;https://www.wikiwand.com/en/Responsive_web_design&#34;&gt;Responsive web design (RWD)&lt;/a&gt; feature to the system, I used this chrome extension to test the system UI and check if all the content were correctly displayed on different size of the screen.&lt;/p&gt;
+
+&lt;div class=&#34;post-img-div&#34;&gt;
+    &lt;img src=&#34;http://hippoandy.github.io/img/posts/e-learning/20160628-window-resizer-chrome.png&#34; class=&#34;horizontal-center post-img-border&#34; style=&#34;width: 500px;&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;The Window Resizer Extension&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;the-ui-of-our-system&#34;&gt;The UI of Our System&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language. - &lt;i&gt;&lt;a href=&#34;https://www.wikiwand.com/en/Cascading_Style_Sheets&#34;&gt;Wikipedia&lt;/a&gt;&lt;/i&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There are 3 ways to enable CSS settins on the html components.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Write it directly in side the web page file (.html, .php,.etc)&lt;/li&gt;
+&lt;li&gt;Define in the HTML tag using &lt;code&gt;style=&amp;quot;&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Make a .css file and link it to the web page (using relative path)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;write-it-directly-in-side-the-web-page-file&#34;&gt;Write it directly in side the web page file&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!doctype html&amp;gt;
+&amp;lt;html&amp;gt;
+    &amp;lt;head&amp;gt;
+        &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt;
+        &amp;lt;title&amp;gt;CSS inside&amp;lt;/title&amp;gt;
+        &amp;lt;!-- CSS code here! --&amp;gt;
+        &amp;lt;style&amp;gt;
+            .hippo
+            {
+                border: #ff0000 2px solid;
+                font-size: 30px;
+                background-color: #787878;
+            }
+        &amp;lt;/style&amp;gt;
+    &amp;lt;/head&amp;gt;
+    &amp;lt;body&amp;gt;
+        &amp;lt;div class=&amp;quot;hippo&amp;quot;&amp;gt;
+            Hello! This is class hippo.
+        &amp;lt;/div&amp;gt;
+    &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;define-in-the-html-tag&#34;&gt;Define in the HTML tag&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!doctype html&amp;gt;
+&amp;lt;html&amp;gt;
+    &amp;lt;head&amp;gt;
+        &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt;
+        &amp;lt;title&amp;gt;CSS UsingClass&amp;lt;/title&amp;gt;
+    &amp;lt;/head&amp;gt;
+
+    &amp;lt;body&amp;gt;
+        &amp;lt;!-- Writing CSS code inside HTML Tag --&amp;gt;
+        &amp;lt;div style=&amp;quot;border: #ff0000 2px solid; font-size: 30px; background-color: #787878;&amp;quot;&amp;gt;
+            Hello! This is the 1st div.
+        &amp;lt;/div&amp;gt;
+
+        &amp;lt;br /&amp;gt;
+
+        &amp;lt;!-- Writing CSS code inside HTML Tag --&amp;gt;
+        &amp;lt;div style=&amp;quot;border: #0000ff 2px solid; font-size: 40px; background-color: #d5d5d5;&amp;quot;&amp;gt;
+            Hello! This is the 2nd div.
+        &amp;lt;/div&amp;gt;
+    &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;link-css-file-to-the-web-page&#34;&gt;Link .css file to the web page&lt;/h3&gt;
+
+&lt;h4 id=&#34;index-html&#34;&gt;index.html&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!doctype html&amp;gt;
+&amp;lt;html&amp;gt;
+    &amp;lt;head&amp;gt;
+        &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt;
+        &amp;lt;title&amp;gt;CSS outside&amp;lt;/title&amp;gt;
+        &amp;lt;!-- CSS Outside! --&amp;gt;
+        &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot; href=&amp;quot;./test.css&amp;quot;&amp;gt;
+    &amp;lt;/head&amp;gt;
+    &amp;lt;body&amp;gt;
+        &amp;lt;div class=&amp;quot;hippo&amp;quot;&amp;gt;
+            Hello! This is class hippo.
+        &amp;lt;/div&amp;gt;
+    &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;test-css&#34;&gt;test.css&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;.hippo
+{
+    border: #ff0000 2px solid;
+    font-size: 30px;
+    background-color: #787878;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The UI of our system changed for 3 times. The first look is my practice of CSS coding w/o using third-party framework.
+&lt;div class=&#34;post-img-div&#34;&gt;
+    &lt;img src=&#34;http://hippoandy.github.io/img/posts/e-learning/20160628-the-1-ver-ui.png&#34; class=&#34;horizontal-center post-img-border&#34; style=&#34;width: 500px;&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;The 1&lt;sup&gt;st&lt;/sup&gt; version of the UI&lt;/p&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;Since the second version, I started using &lt;a href=&#34;http://getbootstrap.com/&#34;&gt;Bootstrap framework&lt;/a&gt; which make the UI more convenient to design.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Bootstrap is a free and open-source front-end web framework for designing websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions. - &lt;i&gt;&lt;a href=&#34;https://www.wikiwand.com/en/Bootstrap_(front-end_framework)&#34;&gt;Wikipedia&lt;/a&gt;&lt;/i&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&#34;post-img-div&#34;&gt;
+    &lt;img src=&#34;http://hippoandy.github.io/img/posts/e-learning/20160628-the-2-ver-ui.png&#34; class=&#34;horizontal-center post-img-border&#34; style=&#34;width: 500px;&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;The 2&lt;sup&gt;nd&lt;/sup&gt; version of the UI&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;post-img-div&#34;&gt;
+    &lt;img src=&#34;http://hippoandy.github.io/img/posts/e-learning/20160628-the-3-ver-ui.png&#34; class=&#34;horizontal-center post-img-border&#34; style=&#34;width: 500px;&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;The 3&lt;sup&gt;rd&lt;/sup&gt; version of the UI&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;sample-code-of-rwd&#34;&gt;Sample Code of RWD&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;@media (min-width: 768px)
+{
+    .[class]
+    {
+        /* Do Something */
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;My understanding is that the RWD feature needs the CSS settings to be relative. For example, when we added an image on the page, we might set the width of it, like &lt;code&gt;width: ???px;&lt;/code&gt;. However, to make it able to dynamically resize as the screen size change, the setting should be change as &lt;code&gt;width: ?%;&lt;/code&gt;.
+As the settings the sample code given, when the &lt;code&gt;min-width&lt;/code&gt; of the screen is &lt;code&gt;768px&lt;/code&gt;, the browser will use the given settings for &lt;code&gt;[class]&lt;/code&gt;. Otherwide, the settings won&amp;rsquo;t be used.
+Together with the relative CSS settings, the RWD feature is enabled.&lt;/p&gt;
+
+&lt;p&gt;The historical recod of the examination performance using &lt;a href=&#34;http://www.chartjs.org/&#34;&gt;Chart.js&lt;/a&gt; to draw the pie chart.&lt;/p&gt;
+
+&lt;div class=&#34;post-img-div&#34;&gt;
+    &lt;img src=&#34;http://hippoandy.github.io/img/posts/e-learning/20160628-chartjs-sample.png&#34; class=&#34;horizontal-center post-img-border&#34; style=&#34;width: 500px;&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;The Pie Chart using Chart.js&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;the-online-editor&#34;&gt;The Online Editor&lt;/h2&gt;
+
+&lt;p&gt;To help the user practice while learning, I came up with an idea to embed an code editor on the class page.
+I found an sample code on the website, here&amp;rsquo;s the &lt;a href=&#34;http://htmledit.squarefree.com&#34;&gt;link&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The concept is to use javascript to load the code written in the &lt;code&gt;&amp;lt;textarea&amp;gt;&lt;/code&gt; to an &lt;code&gt;&amp;lt;iframe&amp;gt;&lt;/code&gt;.
+First, get the document of the &lt;code&gt;&amp;lt;iframe&amp;gt;&lt;/code&gt; and the content inside the &lt;code&gt;&amp;lt;textarea&amp;gt;&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/* get the document of iframe: `&amp;lt;iframe name=&amp;quot;dynamicframe&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;` */
+var d = window.dynamicframe.document;
+
+/* get the content of textarea `&amp;lt;textarea id=&amp;quot;htmlTA&amp;quot; spellcheck=&amp;quot;false&amp;quot;&amp;gt;&amp;lt;/textarea&amp;gt;` */
+var htmlText = window.editbox.document.getElementById(&amp;quot;htmlTA&amp;quot;).value;
+
+or
+
+$(&#39;#htmlTA&#39;).val();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Second, use an &lt;code&gt;if&lt;/code&gt; loop to check whether the content of &lt;code&gt;&amp;lt;textarea&amp;gt;&lt;/code&gt; has been modified. If so, update.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;if( load != htmlText )
+{
+    // update page content
+    load = htmlText;
+
+    d.open();
+    d.write(load);
+    d.close();
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To allow the program could always get the newly modified code, it use &lt;code&gt;window.setTimeout( [function name], 150);&lt;/code&gt; to update cyclically.&lt;/p&gt;
+
+&lt;p&gt;Based on these concept, I modified the original version by added-on another &lt;code&gt;&amp;lt;textarea&amp;gt;&lt;/code&gt; to enable the user write customized CSS code.&lt;/p&gt;
+
+&lt;p&gt;Cosidering there might be some users want to restore their work online, I added-on php-download feature to allow them download their code.
+User can download them partially. The 2 &lt;code&gt;&amp;lt;textarea&amp;gt;&lt;/code&gt; and the result shower all has a download button on it.
+The one on &lt;code&gt;the HTML code &amp;lt;textarea&amp;gt;&lt;/code&gt; would download only the html page source written by the user online.
+The second on &lt;code&gt;the CSS code &amp;lt;textarea&amp;gt;&lt;/code&gt; would download only the .css file.
+The last one on the result shower would download the page source which combined the HTML code and CSS code written by the user online.&lt;/p&gt;
+
+&lt;h4 id=&#34;download-php&#34;&gt;download.php&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;?php
+if(empty($_POST[&#39;filename&#39;]) || empty($_POST[&#39;content&#39;])){
+    exit;
+}
+
+$filename = preg_replace(&#39;/[^a-z0-9\-\_\.]/i&#39;,&#39;&#39;,$_POST[&#39;filename&#39;]);
+
+header(&amp;quot;Cache-Control: &amp;quot;);
+header(&amp;quot;Content-type: text/plain&amp;quot;);
+header(&#39;Content-Disposition: attachment; filename=&amp;quot;&#39;.$filename.&#39;&amp;quot;&#39;);
+
+echo $_POST[&#39;content&#39;];
+?&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;download-js&#34;&gt;download.js&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;$(document).ready( function()
+{
+    $(&#39;#download-btn&#39;).click( function(e)
+    {
+        var DC = $(&#39;#htmlTA&#39;).val();
+
+        $.generateFile({
+            filename    : &#39;page.html&#39;,
+            content     : DC,
+            script      : &#39;./download.php&#39;
+        });
+
+        e.preventDefault();
+    });
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;post-img-div&#34;&gt;
+    &lt;img src=&#34;http://hippoandy.github.io/img/posts/e-learning/20160628-oe.png&#34; class=&#34;horizontal-center post-img-border&#34; style=&#34;width: 500px;&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;The Online Editor&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
